@@ -148,8 +148,12 @@ export default function GameBoard({
     const observer = new ResizeObserver((entries) => {
       if (!entries || entries.length === 0) return;
       const { width, height } = entries[0].contentRect;
-      // Force it to be a perfect square fitting parent boundaries
-      const size = Math.floor(Math.min(width, height - 10, 500));
+      // On mobile, height is constrained — use width as the primary axis for a square canvas
+      // On desktop, both dimensions are available, so still cap at 500
+      const isMobileLayout = window.innerWidth < 768;
+      const size = isMobileLayout
+        ? Math.floor(Math.min(width, 500))
+        : Math.floor(Math.min(width, height - 10, 500));
       if (size > 50) {
         setDimensions({ width: size, height: size });
       }
