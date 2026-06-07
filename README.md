@@ -1,9 +1,12 @@
 # 🐍 Killer Ultimate Snake Game
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/)
+🚀 **Live Deployment URL:** [https://killer-ultimate-snake-game.vercel.app/](https://killer-ultimate-snake-game.vercel.app/)
+
+[![Live Deployment](https://img.shields.io/badge/vercel-live--demo-success.svg?logo=vercel)](https://killer-ultimate-snake-game.vercel.app/)
 [![React Version](https://img.shields.io/badge/react-v19.0-blue.svg)](https://react.dev/)
 [![Vite Version](https://img.shields.io/badge/vite-v6.2-purple.svg)](https://vite.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/tailwind--css-v4.0-38bdf8.svg)](https://tailwindcss.com/)
+
 
 An arcade-inspired, feature-rich, high-performance modern web recreation of the classic **Snake** game built with **React**, **Vite**, **TypeScript**, and **Tailwind CSS**. Packed with multiple game modes, visual skins, board themes, custom achievements, live statistics, dynamic particle effects, sound options, a voice assistant, and an AI Gameplay Coach!
 
